@@ -1,0 +1,52 @@
+// Online C++ compiler to run C++ program online
+
+
+// our starting point will be 
+/*<iostream >  this stands for input output stream 
+it is one of the files in standard library
+std this stands for standard library this is like bucket or container. 
+cout stands for character out. Using this object we can output one or more characters.
+std::cout <<"Hello world"; this is a statement in c++.
+ */
+#include <iostream>
+int main() {
+    int file_size = 100 , counter = 400; // variable declaration. we can declare more than 1 variable in single line. But it is preferable if we declare them on different line.
+    int a = 1;
+    int b = 2;
+    int c = a;
+    a = b;
+    b = c;
+    double sales = 9.99;
+    // constants
+     const double pi = 3.14; // constant declaration.
+     
+
+
+    
+    std::cout << b;
+    return 0;
+
+
+}
+/*Variables = we use variables to temporarily store data.
+variables are the name of location in the memory we can store different data types in variable.
+To declare in variable in c++
+first we have to specify the data type.
+We use int to store whole numbers.
+We use double to store decimal  numbers.
+Variable declaration conventions
+we dont have to use f1 and f2 or fs 
+*/
+/*
+constants: we use constants if we do not want to change the value of the variable.
+
+ */
+ /*
+ Naming conventions
+ 1. we have to use lower case letter to name.
+ 2. If we have multiple name we have to separate them by using underscore.
+ 3. we can capitalize the first letter of our variable name.
+ */
+ /*
+ mathematical expression
+ */
